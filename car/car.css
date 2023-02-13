@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 header p{
     color: orangered;
@@ -297,6 +304,7 @@ img#c3 {
     width: 250%;
     overflow: hidden;
     background-repeat: repeat-x;
+    top: 70px;
   }
   
   .car {
@@ -385,4 +393,26 @@ img#c3 {
     position: relative;
     top: 58px;
     right: 17px;
+    top: 80px;
+}
+/* body{
+  width: 100vh;
+  overflow: hidden;
+  height: 100vh;
+} */
+
+header a:hover{
+  border-bottom: 3px solid #e1460f;
+}
+.wheel .back-wheel {
+  right: 86px;
+  top: -58px;
+}
+.wheel .front-wheel {
+  left: 70px;
+  top: -59px;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
 }
